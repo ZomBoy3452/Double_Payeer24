@@ -1,0 +1,513 @@
+@font-face {font-family: Exo2LightCondensed; src: url(/1.otf)}
+
+
+
+body {
+    background: #FFF url(http://invest-forum.pro/templates/Adaptive/images/dot.png);
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+    font-family: Exo2LightCondensed, monospace;
+    font-size: 18px;
+    \: 1.182;
+    font-weight: normal;
+    margin-top: -25px;
+}
+.main {
+    width: 960px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    color: #000000;
+}
+
+#tables{background-color: rgba(0, 0, 0, 0.08);}
+		 
+#tables td{border:#FFFFFF 1px solid;padding: 5px;font-size: 17px;}
+		
+#s {
+    padding: 8px 66px 7px 66px;
+    margin: 0;
+    font-size: 12px;
+    display: inline-block;
+    zoom:1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    vertical-align: top;
+    overflow: visible;
+    line-height: 13px;
+    text-decoration: none;
+    background: none;
+    background: url(/img/7.jpg) repeat-x;
+    color: #FFF;
+    border: 0;
+    -webkit-transition: background-color 100ms ease-in-out;
+    -khtml-transition: background-color 100ms ease-in-out;
+    -moz-transition: background-color 100ms ease-in-out;
+    -ms-transition: background-color 100ms ease-in-out;
+    -o-transition: background-color 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #333;
+    font-weight: bold;
+ }
+#s:hover{ background-color: #678eb5; }
+#s2{ display:block; color:#FFFFFF;text-transform: uppercase;text-shadow: 0 1px 1px #333;font-weight: bold;}
+
+		
+.layout {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#rbout-summary {
+    float: right;
+    margin: 30px 70px 0 0;
+    width: 360px;
+    background: url(http://socpublic.com/themes/assets/frontend/pages/img/front-slider/user-money.png);
+    height: 279px;
+}
+
+p{margin: 0.8em 0;}
+.dev_main_desc {
+    margin-top: 12px;
+    line-height: 120%;
+    text-align: justify;
+    width: 880px;
+    color: #5F5B5B;
+    text-transform: none;
+    font-size: 14px;
+    padding: 0 0 20px 0;
+}
+table{
+    margin:0 auto;
+    color: #000000;
+    font-weight: bold;
+ }
+a{
+	text-decoration:none;
+	}
+.htt:hover {
+	background-color: rgba(192, 195, 192, 0.3);
+	}
+	
+input:focus{
+background-image:none;}
+		input {
+    width: 460px;
+    height: 35px;
+    text-align: center;
+}	
+
+#navigation, 
+#nav li ul li, 
+#nav li ul li a{background: url(/img/7.jpg) repeat-x;}
+
+#nav li a, 
+#nav li a:hover, 
+#nav li ul li,
+#nav li ul li a,
+#nav li ul li a:hover  {
+color: #fff; 
+}
+
+#nav li a:hover, 
+#nav li ul li a:hover  {color: #EADC22;}
+
+
+#nav li a, 
+#nav li a:hover, 
+#nav li ul li a:hover  {
+text-shadow: 0 1px 1px #333; 
+}
+
+#menu_div{
+clear: both;
+position: relative;
+top: 0;
+left: 0;z-index: 1000;} 
+
+#navigation {
+position: fixed;
+}
+
+#navigation, #menu_div {
+width: 100%;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+#menu_div, #navigation, #menu, #nav{height: 63px; /* menu height */}
+
+
+
+#menu {
+width: 960px;
+margin:0 auto; /*center the menu*/
+padding:0;
+position: relative;
+}
+
+#nav{width: 960px;margin:0;padding:0;position: relative;}
+
+#nav li a,#nav li {
+float:left;
+}
+
+#nav li {list-style:none;position:relative;height: 60px;}
+
+#nav li a {line-height: 65px;padding: 0 18px;text-decoration:none;margin:0;text-shadow: 0 2px 2px rgba(0,0,0,.25);font-size: 18px;}
+
+
+
+#nav li a:hover,
+#nav li ul li a:hover  {
+-webkit-transition-property:color, background; 
+-webkit-transition-duration: 0.5s, 0.5s; 
+-webkit-transition-timing-function: linear, ease-out;
+}
+
+.searchfield:focus,
+.searchfield:not(:focus){
+-webkit-transition-property:width; 
+-webkit-transition-duration: 0.5s, 0.5s; 
+-webkit-transition-timing-function: linear, ease-out;
+}
+
+#menu_div:hover,
+#navigation:hover,
+#nav li ul a, 
+#menu_div,
+#navigation, 
+#nav li a, 
+#menu_div:not(:hover), 
+#navigation:not(:hover)
+{
+-webkit-transition-property:opacity; 
+-webkit-transition-duration: 0.5s, 0.5s; 
+-webkit-transition-timing-function: linear, ease-out;
+} 
+
+#about-summary-title {
+    font-size: 28px;
+    padding: 0 0 12px 0;
+    line-height: 15px;
+    color: #FFF;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+
+#about-summary {
+    float: left;
+    margin: 30px 10px 0 0;
+    width: 450px;
+}
+
+
+#about-summary-text {
+    color: #FFF;
+    font-size: 24px;
+    text-shadow: 0 2px 2px rgba(0,0,0,.25);
+}
+
+.dev_page_block.dev_main_sections {
+    padding: 0px;
+    font-size: 0px;
+    width: 100%;
+    margin:0 auto;
+    height: 425px;
+}
+
+.dev_page_block {
+    background: #B3C517 url(http://invest-forum.pro/templates/Adaptive/images/dot.png);
+    margin-top: 20px;
+    color: #2b2f33;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 0px 241px inset;
+}
+
+
+.reg {
+    cursor: pointer;
+    margin-top: -10px;
+    color: white;
+    text-decoration: none;
+    background: url(/img/7.jpg) repeat-x;
+    border: 1px solid #000;
+    text-shadow: 0 2px 2px rgba(0,0,0,.25);
+    font-size: 17px;
+}
+
+.reg:hover {background: #252525;border: 1px solid #252525;}
+
+#logo {
+    display: block;
+    float: left;
+    color: #fff;
+    line-height: 50px;
+    background: url("/img/logo.gif");
+    width: 300px;
+    height: 45px;
+    margin-top: 3px;
+}
+
+.included {
+    width: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0px 0px 10px;
+    margin-top: -134px;
+}
+
+.included ul {
+    overflow: hidden;
+}
+
+.include-icon {
+    padding-top: 10px;
+    color: rgb(253, 168, 51);
+    font-size: 25px;
+}
+
+.included li {
+    position: relative;
+    float: left;
+    font-family: Gotham_SSm_4r, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.625rem;
+    width: 24.333%;
+    text-transform: uppercase;
+    text-align: center;
+    list-style: none;
+}
+
+#footer_wrapper {
+    clear: both;
+    height: 246px;
+    position: relative;
+    margin-top: 9px;
+    min-width: 1030px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#footer_top {
+    box-sizing: border-box;
+    height: 200px;
+    padding: 22px 0 0;
+    margin: 0 0 17px;
+    background: url(/img/7.jpg) repeat-x;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer_container {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+}
+
+.footer_block.first {
+}
+.footer_block {
+    float: left;
+}
+
+.footer_block.soc_links {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.fl_left {
+    float: left;
+    margin: 0 10px;
+}
+
+.footer_right {
+    float: right;
+}
+
+.blank {
+    width: 0;
+    height: 0;
+    font-size: 1px;
+    clear: both;
+}
+
+#footer_bottom {
+    height: 65px;
+    margin: -18px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+#footer_copyright span {
+    color: #ddd;
+    font-size: 15px;
+    margin: 0 0 0 17px;
+    font-family: sans-serif;
+}
+
+.footer_block li a, .footer_block li span {
+    color: #fff;
+}
+
+.footer_block li {
+    line-height: 23px;
+}
+#events_list li, #fixed_menu_right ul li, #topmenu_simple li, .footer_block li, .summand ul, ul.ul-arrow li {
+    list-style-type: none;
+}
+
+.footer_block li a {
+    font-size: 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.footer_block li a, .footer_block li span {
+    color: #fff;
+}
+
+.footer_block li a:hover {
+    border-color: #3e9fcb;
+}
+
+
+#footer_copyright, #footer_counters {
+    height: 100%;
+    line-height: 47px;
+    float: left;
+    width: 50%;
+}
+
+#footer_copyright {
+    line-height: 47px;
+}
+
+#footer_bottom_content {
+    height: 47px;
+    background: #000000;
+}
+
+#footer_bottom_line {
+    background: url(/img/footer_bottom_line_angle.png) no-repeat #000000;
+    height: 18px;
+    width: 100%;
+    left: 40%;
+    position: absolute;
+    top: -18px;
+    margin: 0 0 0 325px;
+}
+
+#footer_bottom_line:after {
+    background: url(/img/footer_bottom_line_angle.png) no-repeat;
+    position: absolute;
+    content: ' ';
+    left: -16px;
+    width: 16px;
+    height: 100%;
+}
+
+#slogan {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px 0 0;
+    font-family: Cambria, Georgia, serif;
+    font-style: italic;
+    text-shadow: 0 1px 0 rgb(0, 0, 0);
+}
+
+.circle_link {
+    background: rgb(0, 0, 0);
+    -webkit-transition: -webkit-transform ease-out .1s,background .2s;
+    -moz-transition: -moz-transform ease-out .1s,background .2s;
+    transition: transform ease-out .1s,background .2s;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.circle_link:before {
+    content: " ";
+    background: url(http://www.telderi.ru/img/site/template/social_footer.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+
+.vk_link:before {
+    background-position: 0 50%;
+}
+
+.circle_link:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.1);
+    opacity: 0;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
+}
+.fb_link:before {
+    background-position: 0 100%;
+}
+
+.circle_link:hover {
+    background: rgba(255,255,255,.05);
+    -webkit-transform: scale(.93);
+    -moz-transform: scale(.93);
+    -ms-transform: scale(.93);
+    transform: scale(.93);
+    color: #fff;
+}
+
+.tw_link:before {
+    background-position: 0 0;
+}
+
+.security {
+    height: auto;
+    width: auto;
+    float: right;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.security-one {
+    height: auto;
+    width: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+.f_right {
+    float: right;
+}
